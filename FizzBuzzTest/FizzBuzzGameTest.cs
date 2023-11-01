@@ -50,14 +50,14 @@ namespace FizzBuzzTest
         [Fact]
         public void Should_return_FizzBuzz_When_number_given_15()
         {
-            //Given
+            // Given
             int number = 15;
 
-            //When
+            // When
             FizzBuzzGame game = new FizzBuzzGame();
             string speakResult = game.SpeakNumber(number);
 
-            //then
+            // Then
             Assert.Equal("FizzBuzz", speakResult);
         }
     }
